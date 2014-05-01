@@ -1,0 +1,368 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{EB8B9DED-6A59-4544-84EE-E1FA2C4F7DF6}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "128x128.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "BasicGL"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "BasicGL"
+                StartupObject = "BasicGL.Start"
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "Microsoft.VisualBasic.Compatibility"
+                    AssemblyName = "Microsoft.VisualBasic.Compatibility"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\Microsoft.VisualBasic.Compatibility.dll"
+                />
+                <Reference
+                    Name = "Microsoft.VisualBasic"
+                    AssemblyName = "Microsoft.VisualBasic"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\Microsoft.VisualBasic.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "stdole"
+                    AssemblyName = "stdole"
+                    HintPath = "..\..\..\..\..\Program Files\Microsoft.NET\Primary Interop Assemblies\stdole.dll"
+                    AssemblyFolderKey = "hklm\primary interop assemblies"
+                />
+                <Reference
+                    Name = "Tao.Platform.Windows"
+                    AssemblyName = "Tao.Platform.Windows"
+                    HintPath = "TAO OpenGL\Tao.Platform.Windows.dll"
+                />
+                <Reference
+                    Name = "Tao.OpenGl"
+                    AssemblyName = "Tao.OpenGl"
+                    HintPath = "TAO OpenGL\Tao.OpenGl.dll"
+                />
+                <Reference
+                    Name = "Tao.OpenGl.Glu"
+                    AssemblyName = "Tao.OpenGl.Glu"
+                    HintPath = "TAO OpenGL\Tao.DLL\Tao.OpenGl.Glu.dll"
+                />
+                <Reference
+                    Name = "Tao.FreeGlut"
+                    AssemblyName = "Tao.FreeGlut"
+                    HintPath = "TAO OpenGL\Tao.DLL\Tao.FreeGlut.dll"
+                />
+                <Reference
+                    Name = "Tao.OpenGl.ExtensionLoader"
+                    AssemblyName = "Tao.OpenGl.ExtensionLoader"
+                    HintPath = "TAO OpenGL\Tao.DLL\Tao.OpenGl.ExtensionLoader.dll"
+                />
+                <Reference
+                    Name = "Tao.Sdl"
+                    AssemblyName = "Tao.Sdl"
+                    HintPath = "TAO OpenGL\Tao.DLL\Tao.Sdl.dll"
+                />
+                <Reference
+                    Name = "Tao.Cg"
+                    AssemblyName = "Tao.Cg"
+                    HintPath = "TAO OpenGL\Tao.DLL\Tao.Cg.dll"
+                />
+                <Reference
+                    Name = "Tao.DevIl"
+                    AssemblyName = "Tao.DevIl"
+                    HintPath = "TAO OpenGL\Tao.DLL\Tao.DevIl.dll"
+                />
+                <Reference
+                    Name = "Tao.Glfw"
+                    AssemblyName = "Tao.Glfw"
+                    HintPath = "TAO OpenGL\Tao.DLL\Tao.Glfw.dll"
+                />
+                <Reference
+                    Name = "Tao.Ode"
+                    AssemblyName = "Tao.Ode"
+                    HintPath = "TAO OpenGL\Tao.DLL\Tao.Ode.dll"
+                />
+                <Reference
+                    Name = "Tao.OpenAl"
+                    AssemblyName = "Tao.OpenAl"
+                    HintPath = "TAO OpenGL\Tao.DLL\Tao.OpenAl.dll"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Diagnostics" />
+                <Import Namespace = "System.Windows.Forms" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "128x128.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "About.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "About.resx"
+                    DependentUpon = "About.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BookVB.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BookVB.resx"
+                    DependentUpon = "BookVB.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CATFISH PNG.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DataSet1.vb"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DataSet1.xsd"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DataSet2.vb"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DataSet2.xsd"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DataSet3.vb"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DataSet3.xsd"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DataSet4.vb"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DataSet4.xsd"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DataSet5.vb"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DataSet5.xsd"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DataSet6.vb"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DataSet6.xsd"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Designer.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Designer.resx"
+                    DependentUpon = "Designer.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ErrorModule.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ErrorModule.resx"
+                    DependentUpon = "ErrorModule.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FileManager.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FileManager.resx"
+                    DependentUpon = "FileManager.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FileProperty.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FileProperty.resx"
+                    DependentUpon = "FileProperty.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "License.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "License.resx"
+                    DependentUpon = "License.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Module.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ModuleBase.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ModuleCube.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OpenFile.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Processed.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Processed.resx"
+                    DependentUpon = "Processed.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProcessModule.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProcessModule.resx"
+                    DependentUpon = "ProcessModule.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Settings.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Settings.resx"
+                    DependentUpon = "Settings.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Start.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Start.resx"
+                    DependentUpon = "Start.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+
